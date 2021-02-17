@@ -4,14 +4,10 @@ class Header extends React.Component {
 		return (
 			<div className="Header">
 				<div className="logo">
-					<h2>Weather Spots...</h2>
-				</div>
-				<div className="navbar">
-					<a href="">Home</a>
-					<a href="">About</a>
+					<h2>Climate Spots...</h2>
 				</div>
 				<div className="creator">
-					<h3>Created By Timothy Ganoza</h3>
+					<h3>Created By <a href="https://github.com/jostimian">Timothy Ganoza </a>🔥</h3>
 				</div>
 			</div>
 		);

@@ -24,20 +24,6 @@ html{
 	display: flex;
 
 }
-.navbar a{
-	text-decoration: none;
-	padding: 14px 16px;
-	font-size: 17px;
-	color:black;
-	margin-top: 15px;
-	transition: all 100ms ease-in-out;
-}
-.navbar a:hover{
-	font-size: 20px;
-}
-.navbar a:active{
-	font-size: 10px;
-}
 .weather{	
 	font-size: 20px;
 	font-weight: 500;
@@ -55,6 +41,10 @@ html{
 	text-align: center;
 	
 }
+.ctry{
+	text-align: center;
+	
+}
 .locationinp input{
 	text-align: center;
   	padding: 12px 20px;
@@ -62,12 +52,7 @@ html{
   	border: none;
   	background-color: #ccb99d;
   	color: black;
-	
-}
-.btn button{
-	border: none;
-	box-sizing: border-box;
-	padding: 0px 80.5px;
+	border-radius: 20px;
 }
 .userContainer{
 	text-align: center;
