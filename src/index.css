@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 html{
 	background-color: #E1D0B7;	
+	font-family: 'Montserrat', sans-serif;
 }
 .Header{
-	font-family: 'Newsreader', serif;
+	font-family: 'Montserrat', sans-serif;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -36,4 +37,38 @@ html{
 }
 .navbar a:active{
 	font-size: 10px;
+}
+.weather{	
+	font-size: 20px;
+	font-weight: 500;
+	justify-content: center;
+}
+.temp{
+	text-align: center;
+	
+}
+.humid{
+	text-align: center;
+	
+}
+.localwthr{
+	text-align: center;
+	
+}
+.locationinp input{
+	text-align: center;
+  	padding: 12px 20px;
+  	box-sizing: border-box;
+  	border: none;
+  	background-color: #ccb99d;
+  	color: black;
+	
+}
+.btn button{
+	border: none;
+	box-sizing: border-box;
+	padding: 0px 80.5px;
+}
+.userContainer{
+	text-align: center;
 }
